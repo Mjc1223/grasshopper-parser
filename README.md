@@ -23,17 +23,23 @@ C++ implementation of a tokenizer and parser for the Grasshopper language.  This
 ---
 
 ## Project Structure
+
+```
 grasshopper-parser
 │
-├── main.cpp # Program entry point
-├── LinkedList.cpp # Linked list implementation
-├── LinkedList.h # Linked list class definitions
-├── node.cpp # Node implementation
-├── node.h # Node class definition
-├── Tokenizer.cpp # Tokenization logic
-├── Tokenizer.h # Tokenizer interface
-└── README.md # Project documentation
----
+├── main.cpp           # Entry point of the application
+│
+├── LinkedList.h       # Linked list class definition
+├── LinkedList.cpp     # Linked list implementation
+│
+├── node.h             # Node structure definition
+├── node.cpp           # Node implementation
+│
+├── Tokenizer.h        # Tokenizer class interface
+├── Tokenizer.cpp      # Token parsing implementation
+│
+└── README.md          # Project documentation
+```
 
 ## How to Build and Run
 
